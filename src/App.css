@@ -1,3 +1,11 @@
+html {
+  height:100%
+}
+
+body {
+  min-height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  border-radius: 0 !important;
 }
